@@ -1,6 +1,6 @@
 import LawnCare from "../assets/lawncare.jpg"
 import FigmaProject from "../assets/figmaproject.jpg"
-import ReactApp from "../assets/reactapp.jpg"
+import Massage from "../assets/massagelp.jpg"
 
 
 export const ProjectList = [
@@ -19,10 +19,10 @@ export const ProjectList = [
         gitHub: "",
     },
     {
-        name: "React App",
-        image: ReactApp,
+        name: "Massage LP",
+        image: Massage,
         alttxt: "",
-        skills: "React",
-        gitHub: "",
+        skills: "HTML, CSS",
+        gitHub: "https://github.com/Dgibson89/MonicaLandingP",
     }
 ]
