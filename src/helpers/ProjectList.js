@@ -1,21 +1,28 @@
-import WeatherApp from "../assets/weatherapp.jpg"
+import LawnCare from "../assets/lawncare.jpg"
 import FigmaProject from "../assets/figmaproject.jpg"
 import ReactApp from "../assets/reactapp.jpg"
 
+
 export const ProjectList = [
     {
-        name: "Weather App",
-        image: WeatherApp,
-        skills: "HTML"
+        name: "Lawn Care LP",
+        image: LawnCare,
+        alttxt: "",
+        skills: "HTML. CSS",
+        gitHub: "https://github.com/Dgibson89/EderLandingPage",
     },
     {
         name: "FigmaProject",
         image: FigmaProject,
-        skills: "Figma"
+        alttxt: "",
+        skills: "Figma",
+        gitHub: "",
     },
     {
         name: "React App",
         image: ReactApp,
-        skills: "React"
+        alttxt: "",
+        skills: "React",
+        gitHub: "",
     }
 ]

@@ -4,15 +4,20 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "../styles/Home.css";
 
 function Home() {
+  const emailLink = "mailto:donovan.gibson89@gmail.com";
+  const linkedinLink = "https://www.linkedin.com/in/dgibson89/";
   return (
     <div className="home">
       <div className="about">
         <h2>Hello, My name is Donovan</h2>
         <div className="prompt">
           <p>Coding Enthusiast</p>
+          <a href={emailLink} target="_blank" rel="noopener noreferrer">
           <EmailIcon />
-
-          <LinkedInIcon />
+          </a>
+          <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
