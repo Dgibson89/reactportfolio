@@ -1,7 +1,7 @@
 import React from "react";
-import EmailIcon from '@mui/icons-material/Email';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import "../styles/Home.css"
+import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import "../styles/Home.css";
 
 function Home() {
   return (
@@ -11,6 +11,7 @@ function Home() {
         <div className="prompt">
           <p>Coding Enthusiast</p>
           <EmailIcon />
+
           <LinkedInIcon />
         </div>
       </div>

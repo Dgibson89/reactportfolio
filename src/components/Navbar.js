@@ -14,7 +14,11 @@ function Navbar() {
 
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
+       <div className="dark-toggle" id="dark-mode">
+        <DarkModeIcon fontSize="large" />
+      </div>
       <div className="toggleButton">
+        
         <button
           onClick={() => {
             setExpandNavbar((prev) => !prev);
@@ -22,14 +26,12 @@ function Navbar() {
         >
           <ReorderIcon />
         </button>
+       
       </div>
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/experience">Experience</Link>
-        <div className="dark-toggle" id="dark-mode">
-        <DarkModeIcon />
-        </div>
       </div>
     </div>
   );
