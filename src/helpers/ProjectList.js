@@ -1,5 +1,5 @@
 import LawnCare from "../assets/lawncare.jpg"
-import FigmaProject from "../assets/figmaproject.jpg"
+import TravelJournal from "../assets/hauntedtraveljournal.jpg"
 import Massage from "../assets/massagelp.jpg"
 
 
@@ -12,11 +12,11 @@ export const ProjectList = [
         gitHub: "https://github.com/Dgibson89/EderLandingPage",
     },
     {
-        name: "FigmaProject",
-        image: FigmaProject,
+        name: "Haunted Travel Journal",
+        image: TravelJournal,
         alttxt: "",
-        skills: "Figma",
-        gitHub: "",
+        skills: "React, CSS",
+        gitHub: "https://github.com/Dgibson89/traveljournal",
     },
     {
         name: "Massage LP",
