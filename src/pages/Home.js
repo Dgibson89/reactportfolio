@@ -11,9 +11,13 @@ function Home() {
       <div className="about">
         <h2>Hello, My name is Donovan</h2>
         <div className="prompt">
-          <p>Coding Enthusiast</p>
+          <p>
+            Passionate about learning code and embracing new technologies to
+            create innovative solutions. Every line of code is a step towards
+            limitless possibilities.
+          </p>
           <a href={emailLink} target="_blank" rel="noopener noreferrer">
-          <EmailIcon />
+            <EmailIcon />
           </a>
           <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
             <LinkedInIcon />
