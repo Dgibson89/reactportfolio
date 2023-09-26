@@ -40,7 +40,7 @@ function Home() {
             <h2>Front-End</h2>
             <span>
               ReactJS, HTML, CSS, JavaScript, NPM, MaterialUI, Yarn, API, UI
-              Design, Responsive Web Design, Web Architecture
+              Design, Responsive Web Design, Web Architecture, Bootstrap
             </span>
           </li>
           <li className="item">
