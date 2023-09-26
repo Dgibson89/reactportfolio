@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -7,10 +7,19 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import "../styles/Experience.css"
+import { ThemeContext } from '../ThemeContext'; // Importing ThemeContext for Dark Mode
 
 function Experience() {
+    // Extracting darkMode from ThemeContext for Dark Mode
+    const { darkMode } = useContext(ThemeContext); 
+
+  // Define dark mode styles only, do not define styles for light mode
+  const darkModeStyles = {
+    backgroundColor: '#333',
+    color: '#fff'
+  };
   return (
-    <div className="experience">
+    <div className="experience" style={darkMode ? darkModeStyles : {}}>
       <VerticalTimeline lineColor=" rgb(57, 57, 146)">
       <VerticalTimelineElement
           className="vertical-timeline-element--education"

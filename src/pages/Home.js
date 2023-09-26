@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "../styles/Home.css";
+import { ThemeContext } from "../ThemeContext"; // Importing ThemeContext for Dark Mode
 
 function Home() {
   const emailLink = "mailto:donovan.gibson89@gmail.com";
   const linkedinLink = "https://www.linkedin.com/in/dgibson89/";
+  // Extracting darkMode from ThemeContext for Dark Mode
+  const { darkMode } = useContext(ThemeContext);
+
+  // Define dark mode styles only, do not define styles for light mode
+  const darkModeStyles = {
+    backgroundColor: '#333',
+    color: '#fff'
+  };
   return (
-    <div className="home">
+    <div className="home" style={darkMode ? darkModeStyles : {}}>
       <div className="about">
         <h2>Hello, My name is Donovan</h2>
         <div className="prompt">
