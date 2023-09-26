@@ -12,8 +12,8 @@ function Home() {
 
   // Define dark mode styles only, do not define styles for light mode
   const darkModeStyles = {
-    backgroundColor: '#333',
-    color: '#fff'
+    backgroundColor: "#333",
+    color: "#660022",
   };
   return (
     <div className="home" style={darkMode ? darkModeStyles : {}}>
@@ -38,11 +38,17 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span>ReactJS, HTML, CSS, JavaScript, NPM, MaterialUI, Yarn</span>
+            <span>
+              ReactJS, HTML, CSS, JavaScript, NPM, MaterialUI, Yarn, API, UI
+              Design, Responsive Web Design, Web Architecture
+            </span>
           </li>
           <li className="item">
-            <h2>Coding Tools</h2>
-            <span>VS Code, Git, Github </span>
+            <h2>Coding Tools/Skills</h2>
+            <span>
+              VS Code, Git, Github, Version Control, Jira, Functional Testing,
+              Non-functional Testing, TestRail
+            </span>
           </li>
         </ol>
       </div>

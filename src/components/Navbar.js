@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"} style={darkMode ? darkModeStyles : {}}>
        <div >
-       <DarkModeIcon fontSize="large" onClick={toggleDarkMode} />
+       {/* <DarkModeIcon fontSize="large" onClick={toggleDarkMode} /> */}
       </div>
       <div className="toggleButton">
         
