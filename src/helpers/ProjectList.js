@@ -1,12 +1,11 @@
 import LawnCare from "../assets/lawncare.jpg";
-import SymbioteSuit from "../assets/symbioteSuit.jpg"
+import SymbioteSuit from "../assets/symbioteSuit.jpg";
 import TravelJournal from "../assets/hauntedtraveljournal.jpg";
 import Massage from "../assets/massagelp.jpg";
 import Portfolio from "../assets/firstportfolio.jpg";
 import AnimeBrowser from "../assets/animebrowserapp.jpg";
-import Quote from "../assets/randomquote.jpg"
+import Quote from "../assets/randomquote.jpg";
 export const ProjectList = [
-
   {
     name: "Spider-Man Fan",
     image: SymbioteSuit,
