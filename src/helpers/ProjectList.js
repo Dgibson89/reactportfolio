@@ -1,10 +1,20 @@
 import LawnCare from "../assets/lawncare.jpg";
+import SymbioteSuit from "../assets/symbioteSuit.jpg"
 import TravelJournal from "../assets/hauntedtraveljournal.jpg";
 import Massage from "../assets/massagelp.jpg";
 import Portfolio from "../assets/firstportfolio.jpg";
 import AnimeBrowser from "../assets/animebrowserapp.jpg";
 import Quote from "../assets/randomquote.jpg"
 export const ProjectList = [
+
+  {
+    name: "Spider-Man Fan",
+    image: SymbioteSuit,
+    alttxt: "Fan App",
+    skills: "React. Bootstrap",
+    gitHub: "https://github.com/Dgibson89/spiderman-fan-app",
+    website: "https://spiderman-fan-app.vercel.app/",
+  },
   {
     name: "Lawn Care LP",
     image: LawnCare,
