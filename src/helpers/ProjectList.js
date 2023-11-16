@@ -1,11 +1,20 @@
 import LawnCare from "../assets/lawncare.jpg";
 import SymbioteSuit from "../assets/symbioteSuit.jpg";
+import VideoGameReviews from "../assets/gamereviews.jpg";
 import TravelJournal from "../assets/hauntedtraveljournal.jpg";
 import Massage from "../assets/massagelp.jpg";
 import Portfolio from "../assets/firstportfolio.jpg";
 import AnimeBrowser from "../assets/animebrowserapp.jpg";
 import Quote from "../assets/randomquote.jpg";
 export const ProjectList = [
+  {
+    name: "Video Game Reviews (Work in Progress)",
+    image: VideoGameReviews,
+    alttxt: "Review Games",
+    skills: "React",
+    gitHub: "https://github.com/Dgibson89/videogamereviews",
+    website: "https://videogamereviews.vercel.app/",
+  },
   {
     name: "Spider-Man Fan",
     image: SymbioteSuit,
