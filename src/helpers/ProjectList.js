@@ -1,6 +1,6 @@
 import LawnCare from "../assets/lawncare.jpg";
 import SymbioteSuit from "../assets/symbioteSuit.jpg";
-import PollyglotBot from "../assets/pollyg.jpg";
+import PollyglotBot from "../assets/pollyg.png";
 import VideoGameReviews from "../assets/gamereviews.jpg";
 import TravelJournal from "../assets/hauntedtraveljournal.jpg";
 import Massage from "../assets/massagelp.jpg";
