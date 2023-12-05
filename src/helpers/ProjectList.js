@@ -1,5 +1,6 @@
 import LawnCare from "../assets/lawncare.jpg";
 import SymbioteSuit from "../assets/symbioteSuit.jpg";
+import PollyglotBot from "../assets/pollyg.jpg";
 import VideoGameReviews from "../assets/gamereviews.jpg";
 import TravelJournal from "../assets/hauntedtraveljournal.jpg";
 import Massage from "../assets/massagelp.jpg";
@@ -8,10 +9,18 @@ import AnimeBrowser from "../assets/animebrowserapp.jpg";
 import Quote from "../assets/randomquote.jpg";
 export const ProjectList = [
   {
+    name: "Polyglot Bot",
+    image: PollyglotBot,
+    alttxt: "Translation Bot",
+    skills: "React, Bootstrap, OpenAI API",
+    gitHub: "https://github.com/Dgibson89/pollyg",
+    website: "https://pollyg-dgibson89.vercel.app/",
+  },
+  {
     name: "Video Game Reviews (Work in Progress)",
     image: VideoGameReviews,
     alttxt: "Review Games",
-    skills: "React",
+    skills: "React, Bootstrap",
     gitHub: "https://github.com/Dgibson89/videogamereviews",
     website: "https://videogamereviews.vercel.app/",
   },
