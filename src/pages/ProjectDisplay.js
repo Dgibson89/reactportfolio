@@ -28,12 +28,14 @@ function ProjectDisplay() {
       <p>
         <b>Skills</b>: {project.skills}
       </p>
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
       <a href={project.gitHub} target="_blank" rel="noopener noreferrer">
         <GitHubIcon />
       </a>
       <a href={project.website} target="_blank" rel="noopener noreferrer">
       <OpenInBrowserIcon />
       </a>
+      </div>
     </div>
   );
 }
