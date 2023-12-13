@@ -1,6 +1,7 @@
 import LawnCare from "../assets/lawncare.jpg";
 import SymbioteSuit from "../assets/symbioteSuit.jpg";
 import PollyglotBot from "../assets/pollyg.png";
+import OrthoBot from "../assets/orthobot.png";
 import VideoGameReviews from "../assets/gamereviews.jpg";
 import TravelJournal from "../assets/hauntedtraveljournal.jpg";
 import Massage from "../assets/massagelp.jpg";
@@ -8,6 +9,14 @@ import Portfolio from "../assets/firstportfolio.jpg";
 import AnimeBrowser from "../assets/animebrowserapp.jpg";
 import Quote from "../assets/randomquote.jpg";
 export const ProjectList = [
+  {
+    name: "AI Ortho Advisor",
+    image: OrthoBot,
+    alttxt: "AI Generated orthopedic advice Bot",
+    skills: "React, Bootstrap, OpenAI API",
+    gitHub: "https://github.com/Dgibson89/aiorthoadvisor",
+    website: "https://aiorthoadvisor.vercel.app/",
+  },
   {
     name: "Polyglot Bot",
     image: PollyglotBot,
